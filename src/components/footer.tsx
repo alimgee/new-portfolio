@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2024 Alan Mc Gee. All rights reserved.</p>
+        <p>&copy; 2025 Alan Mc Gee. All rights reserved.</p>
         <div className="footer-links">
           <a href="https://github.com/alanmcgee" target="_blank" rel="noopener noreferrer" className="footer-link">
             GitHub
