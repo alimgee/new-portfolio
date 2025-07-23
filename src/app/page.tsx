@@ -1,20 +1,21 @@
-import { Navigation } from "@/components/navigation";
-import { Hero } from "@/components/hero";
-import { About } from "@/components/about";
-import { Projects } from "@/components/projects";
-import { Skills } from "@/components/skills";
-import { Contact } from "@/components/contact";
-import { Footer } from "@/components/footer";
+import { HeroSection } from '@/components/hero-section';
+import { AboutSection } from '@/components/about-section';
+import { ProjectsSection } from '@/components/projects-section';
+import { SkillsSection } from '@/components/skills-section';
+import { ContactSection } from '@/components/contact-section';
+import { Navigation } from '@/components/navigation';
+import { Footer } from '@/components/footer';
+
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main>
       <Navigation />
-      <Hero />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <HeroSection />
+      <AboutSection />
+      <ProjectsSection />
+      <SkillsSection />
+      <ContactSection />
       <Footer />
     </main>
   );

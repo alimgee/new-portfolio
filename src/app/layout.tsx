@@ -1,11 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Righteous, Orbitron } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const righteous = Righteous({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-righteous",
+});
+
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  variable: "--font-orbitron",
 });
 
 export const metadata: Metadata = {
@@ -27,15 +37,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+      <body className={`${inter.variable} ${righteous.variable} ${orbitron.variable} font-sans antialiased`}>
+        {children}
       </body>
     </html>
   );

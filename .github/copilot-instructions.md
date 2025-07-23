@@ -8,7 +8,7 @@ This is a modern Next.js 14 portfolio website for Alan Mc Gee, a Full Stack Deve
 ## Technology Stack
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
+- **Styling**: Custom CSS with 70s Retro Theme
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
 - **Deployment**: Optimized for Vercel
@@ -24,7 +24,7 @@ This is a modern Next.js 14 portfolio website for Alan Mc Gee, a Full Stack Deve
 - Use TypeScript for all components
 - Follow Next.js 14 App Router conventions
 - Implement proper SEO with metadata
-- Use Tailwind CSS for styling
+- Use custom CSS with 70s retro styling
 - Ensure accessibility (WCAG guidelines)
 - Optimize for performance (Core Web Vitals)
 
@@ -51,6 +51,6 @@ Based on the existing portfolio at https://www.alanmg.ie/, include:
 ## Component Structure
 - Layout components (Header, Footer, Navigation)
 - Section components (Hero, About, Projects, Skills, Contact)
-- UI components (Button, Card, Modal, ThemeToggle)
+- UI components (Button, Card, Modal)
 - Form components with validation
 - Reusable animation components

@@ -1,24 +1,25 @@
 # Alan Mc Gee - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, showcasing my journey as a Full Stack Developer.
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and custom CSS. Showcases my journey as a Full Stack Developer with a retro 70s theme.
 
 ## 🚀 Features
 
-- **Modern Design**: Clean, professional layout with dark/light theme support
-- **Responsive**: Mobile-first design that works on all devices
-- **Fast Performance**: Built with Next.js 14 and optimized for Core Web Vitals
-- **Smooth Animations**: Subtle animations using Framer Motion
-- **SEO Optimized**: Proper meta tags and semantic HTML
-- **Accessible**: WCAG compliant design
+- **Modern Design**: Clean, minimal, retro 70s-inspired layout
+- **Responsive**: Mobile-first, works on all devices
+- **Fast Performance**: Next.js 14, optimized for Core Web Vitals
+- **Smooth Animations**: Framer Motion for subtle effects
+- **SEO Optimized**: Metadata and semantic HTML
+- **Accessible**: WCAG compliant
+- **Centralized Data**: All content managed in a
 
 ## 🛠️ Tech Stack
 
 - **Framework**: Next.js 14 with App Router
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
+- **Styling**: Custom CSS with 70s Retro Theme
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
-- **Fonts**: Inter (Google Fonts)
+- **Fonts**: Righteous, Orbitron, Inter (Google Fonts)
 
 ## 📂 Project Structure
 
@@ -35,22 +36,18 @@ src/
 │   ├── hero.tsx          # Hero section with introduction
 │   ├── navigation.tsx    # Header with responsive navigation
 │   ├── projects.tsx      # Projects showcase
-│   ├── skills.tsx        # Skills and expertise section
-│   ├── theme-provider.tsx # Dark/light theme context
-│   └── theme-toggle.tsx  # Theme switcher component
-└── lib/
-    └── utils.ts          # Utility functions
+│   └── skills.tsx        # Skills and expertise section
 ```
 
 ## 🎨 Design System
 
 The portfolio uses a cohesive design system with:
 
-- **Colors**: Professional blue and gray palette with proper contrast ratios
-- **Typography**: Inter font family for optimal readability
-- **Spacing**: Consistent spacing scale using Tailwind utilities
-- **Components**: Reusable UI components with consistent styling
-- **Animations**: Subtle entrance animations and hover effects
+- **Colors**: 70s retro blue palette (#4a90c2, #7bb3db, #a8d0f0, #2c5f8a, #1a4a6b)
+- **Typography**: Righteous for headings, Orbitron for card titles, Inter for body text
+- **Spacing**: Consistent spacing scale using custom CSS grid and flexbox
+- **Components**: Reusable UI components with consistent retro styling
+- **Animations**: Smooth hover effects and subtle groovy animations
 
 ## 📱 Sections
 
