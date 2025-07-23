@@ -9,7 +9,7 @@ export function HeroSection() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1>Hi, I'm {personal.name}</h1>
+        <h1>Hi, I&apos;m {personal.name}</h1>
         <p>{personal.title}</p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View My Work</a>

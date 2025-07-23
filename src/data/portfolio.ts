@@ -42,7 +42,7 @@ export const portfolioData = {
       {
         title: "DevAssist",
         description: "A comprehensive Django application with user authentication, CRUD operations, and modern backend architecture.",
-        liveUrl: "https://dev-assist.herokuapp.com/",
+        liveUrl: "",
         githubUrl: "https://github.com/alimgee/dev_assist"
       },
       {

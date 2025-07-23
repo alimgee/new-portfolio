@@ -1,7 +1,7 @@
 import { portfolioData } from "@/data/portfolio";
 
 export function ContactSection() {
-  const { contact, personal } = portfolioData;
+  const { contact} = portfolioData;
 
   return (
     <section id="contact" className="section">

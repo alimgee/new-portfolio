@@ -115,5 +115,5 @@ This project is personal portfolio content. Feel free to use the code structure 
 
 ---
 
-*Built with passion by Alan Mc Gee* ❤️
+*Built with passion by Alan Mc Gee with co-pilot doing the grunt work* ❤️
 # new-portfolio

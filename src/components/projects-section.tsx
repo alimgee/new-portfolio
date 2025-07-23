@@ -13,7 +13,9 @@ export function ProjectsSection() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="card-buttons">
-                <a href={project.liveUrl} className="btn btn-primary">Live Demo</a>
+                {project.liveUrl && project.liveUrl.trim() && (
+                  <a href={project.liveUrl} className="btn btn-primary">Live Demo</a>
+                )}
                 <a href={project.githubUrl} className="btn btn-outline">GitHub</a>
               </div>
             </div>
